@@ -1,0 +1,409 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap'); 
+
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+}
+
+.nav-link{
+    color: black !important;
+}
+
+.search{
+    border: 2px solid grey;
+    border-radius: 0.75rem;
+    padding-left: 10px;
+    width: 280px;
+    background-color: rgba(245, 245, 248, 1);
+    margin-right: 25px;
+}
+
+.searchicon{
+    padding-top: 8px;
+    padding-left: 2px;
+}
+
+.searchinput input{
+    background-color: rgba(245, 245, 248, 1);
+    border: none;
+    
+}
+
+.searchinput input::placeholder{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.ul li{
+    margin-right: 16px;
+    font-weight: 600;
+}
+
+.topa{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    display: inline-block;
+    text-align: center;
+    width: 67px;
+    height: 26px;
+
+}
+
+.top{
+    padding-top: 7px;
+    margin-right: 37px;
+    width: 10px;
+    height: 10px;
+}
+
+.ul li:hover{
+   background-color: #d5d5d5; 
+   border-radius: 10px;
+}
+
+.topa:hover{
+    background-color: #d5d5d5; 
+    border-radius: 10px;
+}
+
+.starlist li{
+    display: inline;
+   
+}
+
+.starlist{
+    padding: 0 !important;  
+}
+
+.star{
+    display: inline;
+}
+
+.starsvg{
+    width: 20px;
+    height: 22px;
+}
+
+.apple{
+    width: 160px;
+    height: 48px;
+    cursor: pointer;
+}
+
+.family{
+    color:rgba(117, 119, 121, 1);
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.track{
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.manage{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.getstarted{
+  width: 250px;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 700;
+  border-radius: 30px;
+  height: 50px;
+}
+
+.getstarted:hover{
+   transform: scale(1.05);
+}
+
+.phone{
+    width: 280;
+    height: 567px;
+}
+
+.sub1{
+      padding-top: 13rem;
+}
+
+.sub2{
+    padding-top: 9rem;
+}
+
+
+
+.section2{
+    padding-top: 6rem;
+    padding-bottom: 20vh;
+}
+
+.section3{
+    background-color: rgb(245, 245, 248, 1);
+    padding-bottom: 7rem;
+    padding-top: 3rem;
+}
+
+.section4{
+    padding-top: 6rem;
+    padding-bottom: 20vh;
+}
+
+.hero{
+    background-color: rgb(245, 245, 248, 1);
+    padding-bottom: 20vh;
+}
+
+.comaclr{
+    background-color: rgb(245, 245, 248, 1);
+}
+
+.uslist li p{
+    font-weight: 700;
+    font-size: 1.25rem;
+    
+}
+
+.learnmorearrow{
+    width: 35px;
+    height: 14px;
+}
+
+.amer{
+    position: relative;
+    z-index: -1;
+    bottom: 30rem;
+    left: 2.2rem;
+}
+
+.usinner{
+   background-color:  #ffcece;
+   height: 75px;
+   max-width: 75px;
+   width: 100;
+   margin-left: auto;
+   margin-right: auto;  
+   border-radius: 22px;
+   padding: 17px;
+}
+
+.usouter{
+    height: 150px;
+   margin-right: 15px;
+   cursor: pointer;
+}
+
+.ushead{
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.greentick{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+@media screen and (max-width: 500px) {
+    .dowload {
+      display: none !important;
+      
+    }
+
+    .mobilelearnmore{
+        display: none !important;
+    }
+
+    .buttonmobile{
+        display: inline !important;
+    }
+
+    .buttonpc{
+        display: none !important;
+    }
+
+    
+  }
+
+  .social{
+    width: 28px;
+    height: 28px;
+  }
+
+  .footerapps ul li{
+    display: inline;
+    margin-right: 15px;
+  }
+
+  .socialdiv ul li{
+    display: inline;
+    margin-right: 10px;
+  }
+
+  .socialdiv{
+    margin-left: -34px;
+  }
+  .socialdiv img:hover{
+    cursor: pointer;
+  }
+
+  .footer{
+    padding-top: 7rem;
+  }
+
+.footerapps{
+    margin-left: -34px;
+
+}
+.footerapps img:hover{
+    cursor: pointer;
+}
+
+.footer1para{
+    font-size: 13px;
+}
+
+.footerlist li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+
+.footercontainer{
+    max-width: 1257px !important;
+}
+
+.footer1paralast{
+    font-size: 13px;
+    text-align: justify;
+}
+
+.lastp{
+    font-size: 10px;
+}
+
+.section5{
+    padding-top: 4rem;
+}
+
+.section6{
+    background-color: rgb(245, 245, 248, 1);
+}
+
+.rarecas{
+    margin-right: auto;
+    margin-left: auto;
+}
+.rarecas img:hover{
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 500px) {
+    .mobiletextviewhead1{
+        font-size: 28px;
+    }
+
+    .mobiletextviewhead2div{
+        margin-top: 25px !important;
+    }
+
+    .mobiletextviewhead2{
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    .mobiletextviewhead3{
+        width: 151px;
+        height: 54px;
+        font-family: 'Nunito Sans', sans-serif;
+        color: white;
+        border-radius: 30px;
+        height: 50px;
+        background-color: #017aff;
+        font-weight: 600;
+        outline: hidden;
+        border: hidden;
+        font-size: 18px;
+
+    }
+
+    .mobileviewimg{
+        padding-top: 3rem !important;
+    }
+
+    .hero{
+        padding-bottom: 5rem;
+    }
+
+    .section2{
+        padding-top: 3rem;
+        padding-bottom: 2rem;
+    }
+
+    .buttonmobilebutton{
+        width: 185px;
+        height: 54px;
+        font-family: 'Nunito Sans', sans-serif;
+        color: white;
+        border-radius: 30px;
+        height: 50px;
+        background-color: #017aff;
+        font-weight: 600;
+        outline: hidden;
+        border: hidden;
+        font-size: 18px;
+    }
+
+    .section3sub2{
+        margin-bottom: -364px;
+    }
+
+    .section4{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .sec{
+        padding-bottom: 2rem;
+    }
+
+    .usinner{
+        height: 65px;
+        
+    }
+
+    .usouter{
+       
+    margin-right: 9px;
+    }
+
+    .rareone{
+        margin-left: -14px;
+    }
+
+    .section3{
+        padding-bottom: 26rem;
+    }
+   
+
+
+    
+
+    
+
+    
+    
+  }
+  .list-group li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+  }
+
+  
